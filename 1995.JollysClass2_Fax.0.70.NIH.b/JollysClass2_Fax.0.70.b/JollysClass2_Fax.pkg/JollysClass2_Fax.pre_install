@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+/usr/bin/open $1/README.rtf >/dev/console 2>&1
+echo 'OK'
+
+#if `/usr/bin/open $1/README.rtf >/dev/console 2>&1`
+#then
+#	echo 'OK';
+#else
+#	echo 'FAILED';
+#fi
+

@@ -1,0 +1,100 @@
+{\rtf0\ansi{\fonttbl\f1\fswiss Helvetica;\f2\fnil Times-Roman;\f3\fmodern Ohlfs;\f0\fmodern Courier;}
+\paperw11160
+\paperh12180
+\margl280
+\margr540
+{\colortbl;\red0\green0\blue0;\red255\green0\blue6;\red0\green7\blue255;\red255\green0\blue6;}
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\f1\b\i0\ulnone\fs52\li400\fc0\cf0 Release Notes 
+\b0\i\fs32 ( 
+\fc1\cf1 version:0.70  compiled:21.Mar 1995 )\
+
+\b\i0\fs16\fc0\cf0 \
+\
+\
+
+\f2\fs28\li1120 Pre-Release :\
+
+\pard\tx1640\tx1680\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\b0\fi-40\li1800\fc0\cf0 This software is in an not extensively tested state. Don't be bugged by bugs, cause you just mail me your problems and I try to figure out how to change the code to support your kind of Class2 Faxmodem as well.\
+I've heard that this driver runs with Rockwell chipsets, I just tested it an afternoon with a noname modem.\
+
+\b\gray302\fc2\cf2 I don't have a plain Class2 modem so mail me when some things just won't work.\
+
+\pard\tx960\tx1840\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\b0\fi-780\li1880\fc0\cf0 \
+
+\b General
+\b0 \
+	Speakervolume and ~dialonly options are not supported.\
+	If you need to 
+\gray125\fc3\cf3 dial a specific prefix
+\gray0\fc0\cf0  you can set that as root :\
+
+\f3\fs22 		localhost#: dwrite JollysFax dialPrefix 01149\
+
+\f2\fs28 	then
+\f3\fs22\fc1\cf1  01149 
+\f2\fs28\fc0\cf0 will get dialed in front of every number.\
+
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\li1120\fc0\cf0 \
+	\
+
+\b ToDo
+\b0 \
+	First thing on my priority list right now ( after releasing ZyXEL,Class2 and Class2.0 versions ) is to support fax receiving. It's not a big deal, but I want to run my 
+\i am
+\i0  as answering machine still; so I have to rewrite a whole bunch of things ( like messaging from 
+\i am
+\i0  to the faxdriver and vice versa ).\
+Or maybe I just hack the fax receiving without 
+\i am
+\i0  support cause 
+\i Mecca
+\i0  ( oh' let's knee down eastwards ) will probably have a different fax-api. \
+\
+The newest version can always be obtained using (Y)-Ftp to :\
+\
+
+\f0\fs24 ftp.informatik.uni-muenchen.de:\
+ /pub/comp/platforms/next/Tools/fax/JollysClass2_Fax..\
+
+\f2\fs16 \
+\
+
+\fs28\fc1\cf1 There are other programs out there you should check :
+\fs16\fc0\cf0 \
+
+\f0\fs24 \
+
+\f2\fs28\fc1\cf1 For receiving faxes :                ....
+\f0\fs24\fc0\cf0 /next/Communication/programs/
+\gray300\fc4\cf4 am
+\gray0\fc0\cf0 ...\
+
+\f2\fs28\fc1\cf1 For net'ters :                              ....
+\f0\fs24\fc0\cf0 /next/Network/Apps/
+\gray300\fc4\cf4 Yftp
+\gray0\fc0\cf0 ...\
+
+\f2\fs28\fc1\cf1 For developers / admins :       ..../
+\f0\fs24\fc0\cf0 next/Tools/workspace/
+\gray300\fc4\cf4 FastConsole
+\gray0\fc0\cf0 ...\
+
+\f2\fs28\fc1\cf1 For fun :                                       ..../
+\f0\fs24\fc0\cf0 next/Games/stratgic/
+\gray300\fc4\cf4 FastSokoban
+\gray0\fc0\cf0 ...\
+
+\li0 \
+
+\dn16 ---\
+\
+                                                don't panic - jolly\
+===================================================================\
+Jolly alias Patrick Stein                 jolly@cis.uni-muenchen.de\
+===================================================================\
+    " System designers who do not allow users to type ahead\
+      ought to be tarred and feathered, or worse yet, be \
+      forced to use their own system. "             - a.s.tanenbaum\
+===================================================================\
+
+}
